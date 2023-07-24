@@ -4,7 +4,7 @@ package regen.intertx.v1;
 
 import "google/api/annotations.proto";
 
-option go_package = "github.com/regen-network/regen-ledger/x/intertx/types/v1";
+option go_package = "github.com/RegenNetwork/regen-ledger/x/intertx/types/v1";
 
 // Query defines the gRPC querier service.
 service Query {

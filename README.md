@@ -1,12 +1,12 @@
-[![Actions Status](https://github.com/regen-network/regen-js/workflows/CI/badge.svg?branch=main)](https://github.com/regen-network/regen-js/actions)
-![GitHub License](https://img.shields.io/github/license/regen-network/regen-js)
+[![Actions Status](https://github.com/RegenNetwork/regen-js/workflows/CI/badge.svg?branch=main)](https://github.com/RegenNetwork/regen-js/actions)
+![GitHub License](https://img.shields.io/github/license/RegenNetwork/regen-js)
 
 <h1 align="center">Regen-JS</h1>
 
 <h4 align="center">Regen Network does JavaScript</h4>
 
 <p align="center">
-   This monorepo contains JavaScript libraries and UIs for interacting with the <a href="https://github.com/regen-network/regen-ledger">Regen Ledger</a>.
+   This monorepo contains JavaScript libraries and UIs for interacting with the <a href="https://github.com/RegenNetwork/regen-ledger">Regen Ledger</a>.
 </p>
 
 <p align="center">
@@ -17,17 +17,13 @@
 
 This API is still under heavy construction, be ready for unexpected breaking changes.
 
-### v1.0.0-alpha4
-
-The `v1.0.0-alpha4` release tag includes a manual override of some generated code in `src` in order to resolve a downstream issue within [regen-network/groups-ui](https://github.com/regen-network/groups-ui). For more information, see [#79](https://github.com/regen-network/regen-js/pull/79) and [regen-network/groups-ui#69](https://github.com/regen-network/groups-ui/pull/69).
-
 ## Get Started
 
 ### Install and build
 
 ```bash
 # Clone the repo.
-git clone https://github.com/regen-network/regen-js
+git clone https://github.com/RegenNetwork/regen-js
 
 # Install dependencies.
 yarn install
@@ -49,7 +45,7 @@ yarn start
 
 The app should be running on http://localhost:3000.
 
-> Pro tip 💡: everytime you modify the `@regen-network/api` package, be sure to run again `yarn build:api`, to let the other packages in the monorepo be aware of your latest changes. You can also add to `--watch` flag on this command to build on file change.
+> Pro tip 💡: everytime you modify the `@RegenNetwork/api` package, be sure to run again `yarn build:api`, to let the other packages in the monorepo be aware of your latest changes. You can also add to `--watch` flag on this command to build on file change.
 
 ### Running the tests:
 
@@ -66,12 +62,12 @@ node --inspect-brk node_modules/.bin/jest -c packages/api/jest.config.js --runIn
 
 ## Packages
 
-Regen-JS consists of smaller npm packages within the [@regen-network namespace](https://www.npmjs.com/org/regennetwork), a so called monorepo. Here is the list of all packages.
+Regen-JS consists of smaller npm packages within the [@RegenNetwork namespace](https://www.npmjs.com/org/regennetwork), a so called monorepo. Here is the list of all packages.
 
 | Package                                        | Description                                         | Latest                                                                                                                  |
 |------------------------------------------------| --------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| [`@regen-network/api`](packages/api)           | A client library interacting with the Regen Ledger. | [![npm version](https://img.shields.io/npm/v/@regen-network/api.svg)](https://www.npmjs.com/package/@regen-network/api) |
-| [`@regen-network/api-demo`](packages/api-demo) | A demo React app using `@regen-network/api`.        | Not published on npm.                                                                                                   |
+| [`@RegenNetwork/api`](packages/api)           | A client library interacting with the Regen Ledger. | [![npm version](https://img.shields.io/npm/v/@RegenNetwork/api.svg)](https://www.npmjs.com/package/@RegenNetwork/api) |
+| [`@RegenNetwork/api-demo`](packages/api-demo) | A demo React app using `@RegenNetwork/api`.        | Not published on npm.                                                                                                   |
 
 ## Build the packages from source
 

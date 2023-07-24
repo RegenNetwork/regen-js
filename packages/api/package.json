@@ -1,15 +1,15 @@
 {
   "name": "@regen-network/api",
-  "version": "v1.0.0-alpha4",
+  "version": "v1.0.0-alpha5",
   "author": "admin@regen.network",
   "description": "Javascript API for Regen Ledger",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/regen-network/regen-js"
+    "url": "https://github.com/RegenNetwork/regen-js"
   },
   "bugs": {
-    "url": "https://github.com/regen-network/regen-js/issues"
+    "url": "https://github.com/RegenNetwork/regen-js/issues"
   },
   "main": "main/index.js",
   "module": "module/index.js",
